@@ -336,6 +336,12 @@ layer {
   }
 }
 layer {
+  name: "resx1_conv3_relu"
+  type: "ReLU"
+  bottom: "resx1_conv3"
+  top: "resx1_conv3"
+}
+layer {
   name: "resx1_concat"
   type: "Concat"
   bottom: "resx1_match_conv"
