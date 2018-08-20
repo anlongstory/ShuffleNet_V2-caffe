@@ -359,12 +359,12 @@ layer {
 }
 layer{
   name:"resx2_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle1"
   top:"resx2_part1"
   top:"resx2_part2"
-  slice_param {
-    slice_point: 88
+  Slice_param {
+    Slice_point: 88
   }
 }
 layer {
@@ -545,12 +545,12 @@ layer {
 }
 layer{
   name:"resx3_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle2"
   top:"resx3_part1"
   top:"resx3_part2"
-  slice_param {
-    slice_point: 88
+  Slice_param {
+    Slice_point: 88
   }
 }
 layer {
@@ -732,12 +732,12 @@ layer {
 
 layer{
   name:"resx4_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle3"
   top:"resx4_part1"
   top:"resx4_part2"
-  slice_param {
-    slice_point: 88
+  Slice_param {
+    Slice_point: 88
   }
 }
 
@@ -1201,12 +1201,12 @@ layer {
 }
 layer{
   name:"resx6_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle5"
   top:"resx6_part1"
   top:"resx6_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 
@@ -1388,12 +1388,12 @@ layer {
 }
 layer{
   name:"resx7_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle6"
   top:"resx7_part1"
   top:"resx7_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 
@@ -1575,12 +1575,12 @@ layer {
 }
 layer{
   name:"resx8_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle7"
   top:"resx8_part1"
   top:"resx8_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 
@@ -1763,12 +1763,12 @@ layer {
 }
 layer{
   name:"resx9_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle8"
   top:"resx9_part1"
   top:"resx9_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 layer {
@@ -1948,12 +1948,12 @@ layer {
 }
 layer{
   name:"resx10_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle9"
   top:"resx10_part1"
   top:"resx10_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 
@@ -2135,12 +2135,12 @@ layer {
 }
 layer{
   name:"resx11_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle10"
   top:"resx11_part1"
   top:"resx11_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 layer {
@@ -2320,12 +2320,12 @@ layer {
 }
 layer{
   name:"resx12_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle11"
   top:"resx12_part1"
   top:"resx12_part2"
-  slice_param {
-    slice_point: 176
+  Slice_param {
+    Slice_point: 176
   }
 }
 layer {
@@ -2785,12 +2785,12 @@ layer {
 }
 layer{
   name:"resx14_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle13"
   top:"resx14_part1"
   top:"resx14_part2"
-  slice_param {
-    slice_point: 352
+  Slice_param {
+    Slice_point: 352
   }
 }
 
@@ -2971,12 +2971,12 @@ layer {
 }
 layer{
   name:"resx15_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle14"
   top:"resx15_part1"
   top:"resx15_part2"
-  slice_param {
-    slice_point: 352
+  Slice_param {
+    Slice_point: 352
   }
 }
 layer {
@@ -3156,12 +3156,12 @@ layer {
 }
 layer{
   name:"resx16_channelsplit"
-  type:"slice"
+  type:"Slice"
   bottom:"shuffle15"
   top:"resx16_part1"
   top:"resx16_part2"
-  slice_param {
-    slice_point: 352
+  Slice_param {
+    Slice_point: 352
   }
 }
 layer {
