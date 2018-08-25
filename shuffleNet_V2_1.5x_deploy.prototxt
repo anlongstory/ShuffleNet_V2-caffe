@@ -363,8 +363,8 @@ layer{
   bottom:"shuffle1"
   top:"resx2_part1"
   top:"resx2_part2"
-  Slice_param {
-    Slice_point: 88
+  slice_param {
+    slice_point: 88
   }
 }
 layer {
@@ -549,8 +549,8 @@ layer{
   bottom:"shuffle2"
   top:"resx3_part1"
   top:"resx3_part2"
-  Slice_param {
-    Slice_point: 88
+  slice_param {
+    slice_point: 88
   }
 }
 layer {
@@ -736,8 +736,8 @@ layer{
   bottom:"shuffle3"
   top:"resx4_part1"
   top:"resx4_part2"
-  Slice_param {
-    Slice_point: 88
+  slice_param {
+    slice_point: 88
   }
 }
 
@@ -1205,8 +1205,8 @@ layer{
   bottom:"shuffle5"
   top:"resx6_part1"
   top:"resx6_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 
@@ -1392,8 +1392,8 @@ layer{
   bottom:"shuffle6"
   top:"resx7_part1"
   top:"resx7_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 
@@ -1579,8 +1579,8 @@ layer{
   bottom:"shuffle7"
   top:"resx8_part1"
   top:"resx8_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 
@@ -1767,8 +1767,8 @@ layer{
   bottom:"shuffle8"
   top:"resx9_part1"
   top:"resx9_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 layer {
@@ -1952,8 +1952,8 @@ layer{
   bottom:"shuffle9"
   top:"resx10_part1"
   top:"resx10_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 
@@ -2139,8 +2139,8 @@ layer{
   bottom:"shuffle10"
   top:"resx11_part1"
   top:"resx11_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 layer {
@@ -2324,8 +2324,8 @@ layer{
   bottom:"shuffle11"
   top:"resx12_part1"
   top:"resx12_part2"
-  Slice_param {
-    Slice_point: 176
+  slice_param {
+    slice_point: 176
   }
 }
 layer {
@@ -2789,8 +2789,8 @@ layer{
   bottom:"shuffle13"
   top:"resx14_part1"
   top:"resx14_part2"
-  Slice_param {
-    Slice_point: 352
+  slice_param {
+    slice_point: 352
   }
 }
 
@@ -2975,8 +2975,8 @@ layer{
   bottom:"shuffle14"
   top:"resx15_part1"
   top:"resx15_part2"
-  Slice_param {
-    Slice_point: 352
+  slice_param {
+    slice_point: 352
   }
 }
 layer {
@@ -3160,8 +3160,8 @@ layer{
   bottom:"shuffle15"
   top:"resx16_part1"
   top:"resx16_part2"
-  Slice_param {
-    Slice_point: 352
+  slice_param {
+    slice_point: 352
   }
 }
 layer {
